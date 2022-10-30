@@ -1,0 +1,112 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(var(--item-color-primary), var(--backgroung-linear-gradient-bottom));
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.titleText {
+  font-size: 4.375rem;
+  font-weight: 900;
+  color: var(--item-color-light-mode);
+}
+
+.subTitleText {
+  font-size: 2rem;
+  color: var(--item-color-light-mode);
+}
+
+a.btnTutorial {
+  background-color: var(--item-color-primary);
+  border: 0.25rem solid var(--item-color-light-mode);
+  color: var(--item-color-light-mode);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+  min-width: 10rem;
+  outline: 0;
+  padding: 0.75rem 1rem;
+}
+
+a.btnDownLoad {
+  background-color: var(--item-color-light-mode);
+  border: 0.25rem solid var(--item-color-light-mode);
+  color: var(--item-color-primary);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+  min-width: 10rem;
+  outline: 0;
+  padding: 0.75rem 1rem;
+}
+
+.btnTutorial:hover {
+  background-color: #1989d0;
+  border: 0.25rem solid #1989d0;
+}
+
+a.btnTutorial:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btnDownLoad:hover {
+  background-color: #1989d0;
+  border: 0.25rem solid #1989d0;
+}
+
+a.btnDownLoad:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.LayOutLog {
+  border: 0.5rem solid var(--item-color-light-mode);
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+  background: var(--item-color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.layOutButtons {
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.logoBackground {
+  position: absolute;
+  z-index: 0;
+  opacity: var(--opacity-logo);
+}
+
+.imageMobile {
+  width: 18% ;
+}

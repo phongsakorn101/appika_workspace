@@ -1,0 +1,57 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1e53a3;
+  --ifm-color-primary-dark: #0a4570;
+  --ifm-color-primary-darker: #506fad;
+  --ifm-color-primary-darkest: #1577c6;
+  --ifm-color-primary-light: #189bde;
+  --ifm-color-primary-lighter: #47bcee;
+  --ifm-color-primary-lightest: #79c9ee;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --item-color-light-mode: #414360;
+  --item-color-primary: #e4f4fc;
+  --backgroung-linear-gradient-bottom: #79c9ee;
+  --opacity-logo: 0.4;
+  --icon-service-task-bg: #F7AA55;
+  --icon-service-task-shadow: #F68E3D;
+  --icon-service-notify-bg: #66D15F;
+  --icon-service-notify-shadow: #53BB76;
+  --icon-service-reminder-bg: #F6A955;
+  --icon-service-reminder-shadow: #F68D3D;
+  --icon-service-reminder-clockL:#EE3657;
+  --icon-service-reminder-clockR:#EE6783;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #189bde;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --item-color-light-mode: #e4f4fc;
+  --item-color-primary: #0a4570;
+  --backgroung-linear-gradient-bottom: #0a4570;
+  --opacity-logo: 0.8;
+  --icon-service-task-bg: #1e53a3;
+  --icon-service-task-shadow: #0a4570;
+  --icon-service-notify-bg: #1e53a3;
+  --icon-service-notify-shadow: #0a4570;
+  --icon-service-reminder-bg: #1e53a3;
+  --icon-service-reminder-shadow: #0a4570;
+  --icon-service-reminder-clockL:#0a4570;
+  --icon-service-reminder-clockR:#0a4570;
+
+}
