@@ -1,10 +1,10 @@
 {
   "index_name": "docusaurus-2",
   "start_urls": [
-    "https://docusaurus.io/"
+    "https://phongsakorn101.github.io/appika_workspace/"
   ],
   "sitemap_urls": [
-    "http://192.168.0.6:3000/sitemap.xml"
+    "https://phongsakorn101.github.io/appika_workspace/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [

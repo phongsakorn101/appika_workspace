@@ -8,16 +8,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Appika Workspace",
   tagline: "Task management and note taking application.",
-  url: "https://appika-workspace.com",
-  baseUrl: "/",
+  url: "https://phongsakorn101.github.io",
+  baseUrl: "/appika_workspace/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/Appika_Workspace_Logo.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // organizationName: "facebook", // Usually your GitHub org/user name.
-  // projectName: "AppikaWorkspace", // Usually your repo name.
+  organizationName: "phongsakorn101", // Usually your GitHub org/user name.
+  projectName: "appika_workspace", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -57,10 +57,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        apiKey: 'dc251b8e51b15e856f6f345e95ac3d56',
-        indexName: 'test_new_index',
+        apiKey: '7faec7fbd9c10269e569977f91db7b5d',
+        indexName: 'documentation appika workspace',
         contextualSearch: true,
-        appId: 'P1ALXQK9FQ',
+        appId: 'PD1UEUJ0ZH',
       },
       navbar: {
         title: "Appika Workspace",
