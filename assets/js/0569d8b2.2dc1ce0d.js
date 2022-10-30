@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapk_workspace=self.webpackChunkapk_workspace||[]).push([[3078],{6710:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/appika_workspace/blog/tags/facebook","allTagsPath":"/appika_workspace/blog/tags","count":1}')}}]);
