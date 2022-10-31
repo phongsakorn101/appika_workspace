@@ -58,7 +58,7 @@ const config = {
     ({
       algolia: {
         apiKey: '7faec7fbd9c10269e569977f91db7b5d',
-        indexName: 'docusaurus-2',
+        indexName: 'documentation appika workspace',
         contextualSearch: true,
         appId: 'PD1UEUJ0ZH',
       },
